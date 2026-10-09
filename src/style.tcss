@@ -1,0 +1,139 @@
+Screen {
+    background: $background;
+    color: $foreground;
+}
+
+Header {
+    background: $panel;
+    color: $primary;
+    height: auto;
+}
+
+Footer {
+    background: $panel;
+    color: $foreground;
+}
+
+#app-body {
+    height: 1fr;
+}
+
+#sidebar {
+    width: 28;
+    background: $surface;
+    border-right: $primary-background;
+    padding: 1 2;
+}
+
+.brand {
+    color: $primary;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+.section-label {
+    color: $foreground-darken-3;
+    text-style: bold;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.channel {
+    color: $foreground-muted;
+    padding: 1 0;
+}
+
+.channel.active {
+    color: $foreground;
+    background: $boost;
+    text-style: bold;
+}
+
+.channel.muted {
+    color: $foreground-disabled;
+}
+
+.sidebar-rule {
+    color: $primary-background;
+    margin-top: 2;
+}
+
+.profile {
+    color: $secondary;
+    margin-top: 1;
+}
+
+#chat-view {
+    width: 1fr;
+    background: $background;
+}
+
+.conversation-header {
+    height: 5;
+    background: $surface-darken-1;
+    border-bottom: solid $primary-background;
+    padding: 1 3;
+}
+
+.conversation-title {
+    color: $foreground;
+    text-style: bold;
+}
+
+.conversation-subtitle {
+    color: $foreground-muted;
+}
+
+#messages {
+    height: 1fr;
+    padding: 2 3;
+}
+
+Message {
+    layout: horizontal;
+    height: auto;
+    margin-bottom: 2;
+}
+
+.message-author {
+    width: auto;
+    color: $secondary;
+    text-style: bold;
+}
+
+.message-time {
+    width: 8;
+    color: $foreground-disabled;
+}
+
+.message-text {
+    width: 1fr;
+    color: $foreground;
+    padding-left: 2;
+}
+
+.date-divider {
+    color: $surface-darken-1;
+    text-align: center;
+    margin: 1 0 2 0;
+}
+
+.composer {
+    height: 5;
+    padding: 0 3 1 3;
+}
+
+#message-input {
+    border: tall $primary-background;
+    background: $surface-lighten-1;
+    color: #foreground;
+}
+
+#message-input:focus {
+    border: tall $secondary-background;
+}
+
+.input-hint {
+    color: $foreground-disabled;
+    padding-top: 1;
+}
