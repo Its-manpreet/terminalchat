@@ -32,16 +32,21 @@ Footer {
     margin-bottom: 1;
 }
 
-.channel {
-    color: $foreground-muted;
-    padding: 0 1;
-    margin: 1 0;
+.app-title {
+    color: $primary;
+    text-align: center;
+    width: 100%;
 }
 
-.channel.active {
-    color: $foreground;
-    background: $boost;
-    text-style: bold;
+.workspace-list {
+    padding: 0;
+    margin: 0;
+}
+
+.channel {
+    color: $foreground-muted;
+    padding: 0 0;
+    margin: 0 0 1 0;
 }
 
 .channel.muted {
@@ -123,13 +128,16 @@ Message {
     border: tall $primary-background;
     background: $surface-lighten-1;
     color: $foreground;
+    width: 90%;
 }
 
 #message-input:focus {
     border: tall $secondary-background;
 }
 
-.input-hint {
-    color: $foreground-disabled;
-    padding-top: 1;
+#send-button {
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+    width: 10%;
 }
