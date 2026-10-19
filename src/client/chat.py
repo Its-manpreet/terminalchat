@@ -3,7 +3,7 @@ from textual.containers import Horizontal
 from textual.widgets import Footer, Header
 from src.client.components.sidebar import Sidebar
 from src.client.components.chatview import ChatView, Message
-
+import requests
 
 class TerminalChat(App):
     """A Textual chatting app."""

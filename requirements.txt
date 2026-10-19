@@ -1,3 +1,7 @@
 textual
 textual-dev
 textual[syntax]
+websockets
+requests
+
+fastapi[standard]
